@@ -1,5 +1,6 @@
 # 
-# Dzmitry Vaskou
+# Dzmitry Vaskou 
+! <img src="avatar.jpg" alt="avatar" width="500" height="600">
 # Contacts
 *    Location: Leszno, Poland
 *    Phone: +48 504 599 023
