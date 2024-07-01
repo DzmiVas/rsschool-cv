@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"Exo2";
+    src:url("assets/fonts/Exo2-Thin.ttf")
+}
+* {
+    box-sizing:border-box;
+  }
+body {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
