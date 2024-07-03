@@ -1,12 +1,15 @@
-@font-face {
-    font-family:"Exo2";
-    src:url("assets/fonts/Exo2-Thin.ttf")
+.nav_link{
+    font-family: cursive;
+    color: white;
+    font-size: 35px;
 }
-* {
-    box-sizing:border-box;
-  }
-body {
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    background-color: #07d1e0;
+    height: 45px;
+    width: 1000px;
+    
 }
