@@ -9,7 +9,41 @@ a{
 }
 header{
     background-color: #07d1e0;
-    height: 45px;
-    width: 1000px;
-    
+    height: var(space-around);
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer{
+    background-color: #100f0f;
+}
+
+.footer-blocks{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-block-rs{
+    width: 150px;
+    height: auto;
+}
+
+.footer-block-year{
+    color: #5a5b5e;
+    font-weight: 650;
+    font-size: 30;
+}
+
+.footer-contacts{
+    background-color: #5a5b5e;
+    width: auto;
+    height: 60px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
