@@ -1,13 +1,87 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <meta charset="UTF-8"> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <title>cv</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <!-- <link rel="icon" href="accets/favicon.ico" > -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dzmitry Vaskou CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <header class="header"></header> -->
+  <header class="header">
+    <div class="container-main">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container-main">
+        <section class="section" id="profile">
+            <img src="/assets/pictures/avatar.jpg" width="256" height="256" alt="Dzmitry Vaskou" title="Dzmitry Vaskou">
+            <h2>Dzmitry Vaskou</h2>
+            <br>
+            <h2>Web developer</h2>
+        </section>
+        <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <h3><img src="./assets/pictures/logo/logo_github.png" width="32" height="32" alt="GitHub" class="github-img"><a href="https://github.com/DzmiVas" class="github-link" title="DzmiVas"> Github.com/DzmiVas</a></h3>
+            <h3><img src="./assets/pictures/logo/logo_email.png" width="32" height="32" alt="Email" class="email-img"><a href="mailto:hobotdmitri@gmail.com" class="email-link" title="hobotdmitri@gmail.com"> Hobotdmitri@gmail.com</a></h3>
+        </section>
+        <section class="section" id="about-me">
+            <h2>About me</h2>
+            <p class="about-me-description">
+                I have good interpersonal skills, I am very good at working in a team and I am learning something new with great desire and success. I am a reliable person and you can rely on me in the team, I am always ready to help.
+            </p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="title-skills">Skils</h2>
+            <p class="skills-list">HTML, CSS, JavaScript</p>
+        </section>
+        <section class="section" id="code-example">
+            <h2 class="title-code-example">Code example</h2>
+            <pre class="code">
+            function sum(a, b) { 
+            return a + b; }
+            let result = sum(1, 2); 
+            alert( result );
+            </pre>
+        </section>
+        <section class="section" id="projects">
+            <h2 class="title-projects">Projects</h2>
+            <p class="project-list">
+              <a href="https://github.com/DzmiVas/rsschool-cv/" class="project-link" title="project on GitHub">Rsschool CV</a>
+            </p>
+        </section>
+        <section class="section" id="education">
+            <h2 class="title-education">Education</h2>
+            <p class="education-list">University: Belarusian State University Of Food And Chemical Technologies, Mechanical engineer of food processing equipment</p>
+        </section>
+        <section class="section" id="languages">
+            <h2 class="title-languages">Languages</h2>
+            <ul class="languages-list">
+                <li>English - A2 (I practice my English by communicating with people from Latin America and other English-speaking countries).</li>
+                <li>Russian - C1</li>
+                <li>Polish - B1</li>
+            </ul>
+        </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-main">
+        <div><a href="https://github.com/DzmiVas" class="github-link">DzmiVas</a></div>
+        <p class="year">2024</p>
+        <a href="https://wearecommunity.io/events/js-fe-rs-2023q4" class="rsschool-link" title="RSschool-link-to-new-course"><img src="./assets/pictures/logo/logo_rsschool.png" alt="RSschool" class="rsschool-img"></a>
+    </div>
+  </footer>
 </body>
 </html>
